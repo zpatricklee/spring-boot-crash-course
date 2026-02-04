@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: spring-boot-crash-course
+  mongodb:
+    uri: ${MONGODB_URI}
+    auto-index-creation: true
+jwt.secret: ${JWT_SECRET_BASE64}
